@@ -1,26 +1,4 @@
-public class PrimeChecker {
-
-    // Function to check if a number is prime
-    public static boolean checkPrimeFunc(int nums) {
-        // Numbers less than or equal to 1 are not prime
-        if (nums <= 1) {
-            return false;
-        }
-        // Check for divisibility from 2 up to the square root of the number
-        for (int i = 2; i <= Math.sqrt(nums); i++) {
-            if (nums % i == 0) {
-                return false; // If divisible, it's not prime
-            }
-        }
-        return true; // If not divisible by any number in the loop, it's prime
-    }
-
-    public static void main(String[] args) {
-        int num = 29;
-        System.out.println("The given number is: " + num);
-        System.out.println(num + " is prime? " + checkPrimeFunc(num)); // Output: 29 is prime? true
-    }
-} 
+//I deleted the first code
 // I am adding 2 nd code for java
 public class FirstNPrimes {
 
